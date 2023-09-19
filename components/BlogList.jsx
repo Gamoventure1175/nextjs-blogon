@@ -20,7 +20,7 @@ const getBlogs = async() => {
 }
 
 async function  BlogList() {
-  
+
   const {allBlogs} = await getBlogs();
 
   return (

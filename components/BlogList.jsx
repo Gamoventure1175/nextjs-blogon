@@ -6,7 +6,6 @@ import {AiFillEdit} from 'react-icons/ai';
 const getBlogs = async() => {
   try {
     const res = await fetch("http://localhost:3000/api/blogs", {
-      method: "GET",
       cache: 'no-store'
     })
 

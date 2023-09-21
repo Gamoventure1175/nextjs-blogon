@@ -51,4 +51,4 @@ async function  BlogList() {
   )
 }
 
-export default BlogList
+export default BlogList;
